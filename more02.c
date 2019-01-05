@@ -56,6 +56,7 @@ void do_more(FILE* fp)
 
 		num_of_lines++;
 	}
+	fclose(fp_tty);
 }
 
 int see_more(FILE* cmd)	//NEW: accept stream 
